@@ -83,7 +83,7 @@ namespace Hospital_Searcher
             }
             if (isLoaded)
             {
-                lbl_Status.Content = "Pobrano z bazy danych pracownika.";
+                lbl_Status.Content = "Pobrano z bazy danych pracownika";
                 lbl_Status.Foreground = Brushes.Green;
                 btn_Save.Content = "Zaktualizuj";
                 btn_Save.IsEnabled = true;
@@ -96,6 +96,28 @@ namespace Hospital_Searcher
                 btn_Save.IsEnabled = false;
                 ClearTextboxes();
                 btn_Save.Visibility = Visibility.Hidden;
+            }
+        }
+
+        private void btn_Save_Click(object sender, RoutedEventArgs e)
+        {
+            string CS = @"data source=DESKTOP-E9EAAOK\SQLEXPRESS01;database=HospitalsEmployees;integrated security=SSPI";
+            using (SqlConnection con = new SqlConnection(CS))
+            {
+                SqlCommand cmd = new SqlCommand("UPDATE tblEmployee SET FirstName = '" + tb_FirstName.Text + "', LastName = '" + tb_LastName.Text + "', Address = '" + tb_Address.Text + "', Telephone = '" + tb_Telephone.Text + "', Email = '" + tb_Email.Text + "', Salary = " + tb_Salary.Text + " WHERE ID = " + _currentEmployeeId.ToString(), con);
+                con.Open(); 
+                int TotalRowsAffected = cmd.ExecuteNonQuery();
+                if (TotalRowsAffected==1)
+                {
+                    lbl_Status.Content = "Zaktualizowano dane pracownika";
+                    lbl_Status.Foreground = Brushes.Green;
+                }
+                else
+                {
+                    lbl_Status.Content = "Nie zaktualizowano danych pracownika";
+                    lbl_Status.Foreground = Brushes.Red;
+                }
+
             }
         }
     }
