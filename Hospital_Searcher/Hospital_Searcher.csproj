@@ -45,6 +45,93 @@
     <Reference Include="System.Xaml">
       <RequiredTargetFramework>4.0</RequiredTargetFramework>
     </Reference>
+    <Reference Include="Telerik.Windows.Controls">
+      <HintPath>..\..\..\..\..\..\Windows.old.000\Users\Ola\Ustawienia lokalne\Apps\2.0\4PY27A5G.50W\H74DCQWJ.4XB\wpfd..tion_0ec16cac1aa370e1_07e2.0003_a76d77f6a488f80e\Telerik.Windows.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Windows.Controls.CodeEditor">
+      <HintPath>..\..\..\..\..\..\Windows.old.000\Users\Ola\Ustawienia lokalne\Apps\2.0\4PY27A5G.50W\H74DCQWJ.4XB\wpfd..tion_0ec16cac1aa370e1_07e2.0003_a76d77f6a488f80e\Telerik.Windows.Controls.CodeEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Windows.Controls.Input">
+      <HintPath>..\..\..\..\..\..\Windows.old.000\Users\Ola\Ustawienia lokalne\Apps\2.0\4PY27A5G.50W\H74DCQWJ.4XB\wpfd..tion_0ec16cac1aa370e1_07e2.0003_a76d77f6a488f80e\Telerik.Windows.Controls.Input.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Windows.Controls.Navigation">
+      <HintPath>..\..\..\..\..\..\Windows.old.000\Users\Ola\Ustawienia lokalne\Apps\2.0\4PY27A5G.50W\H74DCQWJ.4XB\wpfd..tion_0ec16cac1aa370e1_07e2.0003_a76d77f6a488f80e\Telerik.Windows.Controls.Navigation.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Windows.Data">
+      <HintPath>..\..\..\..\..\..\Windows.old.000\Users\Ola\Ustawienia lokalne\Apps\2.0\4PY27A5G.50W\H74DCQWJ.4XB\wpfd..tion_0ec16cac1aa370e1_07e2.0003_a76d77f6a488f80e\Telerik.Windows.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Windows.Documents">
+      <HintPath>..\..\..\..\..\..\Windows.old.000\Users\Ola\Ustawienia lokalne\Apps\2.0\4PY27A5G.50W\H74DCQWJ.4XB\wpfd..tion_0ec16cac1aa370e1_07e2.0003_a76d77f6a488f80e\Telerik.Windows.Documents.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Windows.Documents.Code">
+      <HintPath>..\..\..\..\..\..\Windows.old.000\Users\Ola\Ustawienia lokalne\Apps\2.0\4PY27A5G.50W\H74DCQWJ.4XB\wpfd..tion_0ec16cac1aa370e1_07e2.0003_a76d77f6a488f80e\Telerik.Windows.Documents.Code.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Windows.Documents.Core">
+      <HintPath>..\..\..\..\..\..\Windows.old.000\Users\Ola\Ustawienia lokalne\Apps\2.0\4PY27A5G.50W\H74DCQWJ.4XB\wpfd..tion_0ec16cac1aa370e1_07e2.0003_a76d77f6a488f80e\Telerik.Windows.Documents.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Windows.Documents.Flow">
+      <HintPath>..\..\..\..\..\..\Windows.old.000\Users\Ola\Ustawienia lokalne\Apps\2.0\4PY27A5G.50W\H74DCQWJ.4XB\wpfd..tion_0ec16cac1aa370e1_07e2.0003_a76d77f6a488f80e\Telerik.Windows.Documents.Flow.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Windows.Documents.FormatProviders.Html">
+      <HintPath>..\..\..\..\..\..\Windows.old.000\Users\Ola\Ustawienia lokalne\Apps\2.0\4PY27A5G.50W\H74DCQWJ.4XB\wpfd..tion_0ec16cac1aa370e1_07e2.0003_a76d77f6a488f80e\Telerik.Windows.Documents.FormatProviders.Html.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Windows.Themes.Crystal">
+      <HintPath>..\..\..\..\..\..\Windows.old.000\Users\Ola\Ustawienia lokalne\Apps\2.0\4PY27A5G.50W\H74DCQWJ.4XB\wpfd..tion_0ec16cac1aa370e1_07e2.0003_a76d77f6a488f80e\Telerik.Windows.Themes.Crystal.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Windows.Themes.Expression_Dark">
+      <HintPath>..\..\..\..\..\..\Windows.old.000\Users\Ola\Ustawienia lokalne\Apps\2.0\4PY27A5G.50W\H74DCQWJ.4XB\wpfd..tion_0ec16cac1aa370e1_07e2.0003_a76d77f6a488f80e\Telerik.Windows.Themes.Expression_Dark.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Windows.Themes.Fluent">
+      <HintPath>..\..\..\..\..\..\Windows.old.000\Users\Ola\Ustawienia lokalne\Apps\2.0\4PY27A5G.50W\H74DCQWJ.4XB\wpfd..tion_0ec16cac1aa370e1_07e2.0003_a76d77f6a488f80e\Telerik.Windows.Themes.Fluent.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Windows.Themes.Green">
+      <HintPath>..\..\..\..\..\..\Windows.old.000\Users\Ola\Ustawienia lokalne\Apps\2.0\4PY27A5G.50W\H74DCQWJ.4XB\wpfd..tion_0ec16cac1aa370e1_07e2.0003_a76d77f6a488f80e\Telerik.Windows.Themes.Green.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Windows.Themes.Material">
+      <HintPath>..\..\..\..\..\..\Windows.old.000\Users\Ola\Ustawienia lokalne\Apps\2.0\4PY27A5G.50W\H74DCQWJ.4XB\wpfd..tion_0ec16cac1aa370e1_07e2.0003_a76d77f6a488f80e\Telerik.Windows.Themes.Material.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Windows.Themes.Office2013">
+      <HintPath>..\..\..\..\..\..\Windows.old.000\Users\Ola\Ustawienia lokalne\Apps\2.0\4PY27A5G.50W\H74DCQWJ.4XB\wpfd..tion_0ec16cac1aa370e1_07e2.0003_a76d77f6a488f80e\Telerik.Windows.Themes.Office2013.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Windows.Themes.Office2016">
+      <HintPath>..\..\..\..\..\..\Windows.old.000\Users\Ola\Ustawienia lokalne\Apps\2.0\4PY27A5G.50W\H74DCQWJ.4XB\wpfd..tion_0ec16cac1aa370e1_07e2.0003_a76d77f6a488f80e\Telerik.Windows.Themes.Office2016.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Windows.Themes.Office2016Touch">
+      <HintPath>..\..\..\..\..\..\Windows.old.000\Users\Ola\Ustawienia lokalne\Apps\2.0\4PY27A5G.50W\H74DCQWJ.4XB\wpfd..tion_0ec16cac1aa370e1_07e2.0003_a76d77f6a488f80e\Telerik.Windows.Themes.Office2016Touch.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Windows.Themes.Office_Black">
+      <HintPath>..\..\..\..\..\..\Windows.old.000\Users\Ola\Ustawienia lokalne\Apps\2.0\4PY27A5G.50W\H74DCQWJ.4XB\wpfd..tion_0ec16cac1aa370e1_07e2.0003_a76d77f6a488f80e\Telerik.Windows.Themes.Office_Black.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Windows.Themes.Office_Blue">
+      <HintPath>..\..\..\..\..\..\Windows.old.000\Users\Ola\Ustawienia lokalne\Apps\2.0\4PY27A5G.50W\H74DCQWJ.4XB\wpfd..tion_0ec16cac1aa370e1_07e2.0003_a76d77f6a488f80e\Telerik.Windows.Themes.Office_Blue.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Windows.Themes.Office_Silver">
+      <HintPath>..\..\..\..\..\..\Windows.old.000\Users\Ola\Ustawienia lokalne\Apps\2.0\4PY27A5G.50W\H74DCQWJ.4XB\wpfd..tion_0ec16cac1aa370e1_07e2.0003_a76d77f6a488f80e\Telerik.Windows.Themes.Office_Silver.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Windows.Themes.Summer">
+      <HintPath>..\..\..\..\..\..\Windows.old.000\Users\Ola\Ustawienia lokalne\Apps\2.0\4PY27A5G.50W\H74DCQWJ.4XB\wpfd..tion_0ec16cac1aa370e1_07e2.0003_a76d77f6a488f80e\Telerik.Windows.Themes.Summer.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Windows.Themes.Transparent">
+      <HintPath>..\..\..\..\..\..\Windows.old.000\Users\Ola\Ustawienia lokalne\Apps\2.0\4PY27A5G.50W\H74DCQWJ.4XB\wpfd..tion_0ec16cac1aa370e1_07e2.0003_a76d77f6a488f80e\Telerik.Windows.Themes.Transparent.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Windows.Themes.Vista">
+      <HintPath>..\..\..\..\..\..\Windows.old.000\Users\Ola\Ustawienia lokalne\Apps\2.0\4PY27A5G.50W\H74DCQWJ.4XB\wpfd..tion_0ec16cac1aa370e1_07e2.0003_a76d77f6a488f80e\Telerik.Windows.Themes.Vista.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Windows.Themes.VisualStudio2013">
+      <HintPath>..\..\..\..\..\..\Windows.old.000\Users\Ola\Ustawienia lokalne\Apps\2.0\4PY27A5G.50W\H74DCQWJ.4XB\wpfd..tion_0ec16cac1aa370e1_07e2.0003_a76d77f6a488f80e\Telerik.Windows.Themes.VisualStudio2013.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Windows.Themes.Windows7">
+      <HintPath>..\..\..\..\..\..\Windows.old.000\Users\Ola\Ustawienia lokalne\Apps\2.0\4PY27A5G.50W\H74DCQWJ.4XB\wpfd..tion_0ec16cac1aa370e1_07e2.0003_a76d77f6a488f80e\Telerik.Windows.Themes.Windows7.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Windows.Themes.Windows8">
+      <HintPath>..\..\..\..\..\..\Windows.old.000\Users\Ola\Ustawienia lokalne\Apps\2.0\4PY27A5G.50W\H74DCQWJ.4XB\wpfd..tion_0ec16cac1aa370e1_07e2.0003_a76d77f6a488f80e\Telerik.Windows.Themes.Windows8.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Windows.Themes.Windows8Touch">
+      <HintPath>..\..\..\..\..\..\Windows.old.000\Users\Ola\Ustawienia lokalne\Apps\2.0\4PY27A5G.50W\H74DCQWJ.4XB\wpfd..tion_0ec16cac1aa370e1_07e2.0003_a76d77f6a488f80e\Telerik.Windows.Themes.Windows8Touch.dll</HintPath>
+    </Reference>
+    <Reference Include="TelerikProviderForGoogleAnalytics">
+      <HintPath>..\..\..\..\..\..\Windows.old.000\Users\Ola\Ustawienia lokalne\Apps\2.0\4PY27A5G.50W\H74DCQWJ.4XB\wpfd..tion_0ec16cac1aa370e1_07e2.0003_a76d77f6a488f80e\TelerikProviderForGoogleAnalytics.dll</HintPath>
+    </Reference>
     <Reference Include="WindowsBase" />
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
@@ -91,7 +178,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

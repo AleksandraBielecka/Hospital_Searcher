@@ -4,6 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Hospital_Searcher"
+        xmlns:telerik="http://schemas.telerik.com/2008/xaml/presentation"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid Height="419" VerticalAlignment="Bottom">
@@ -19,10 +20,11 @@
         <TextBox x:Name="tb_Telephone" HorizontalAlignment="Left" Height="25" Margin="111,215,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name="tb_Email" HorizontalAlignment="Left" Height="25" Margin="111,270,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name="tb_Salary" HorizontalAlignment="Left" Height="25" Margin="111,325,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
-        <Button x:Name="btn_Save" Content="Button" HorizontalAlignment="Left" Margin="705,360,0,0" VerticalAlignment="Top" Width="75" Click="btn_Save_Click"/>
-        <Button x:Name="btn_Search" Content="Button" HorizontalAlignment="Left" Margin="705,15,0,0" VerticalAlignment="Top" Width="75" Click="btn_Search_Click"/>
-        <TextBox x:Name="tb_Search" HorizontalAlignment="Left" Height="23" Margin="567,15,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btn_Save" Content="Button" HorizontalAlignment="Left" Margin="707,374,0,0" VerticalAlignment="Top" Width="75" Click="btn_Save_Click"/>
+        <Button x:Name="btn_Search" Content="Button" HorizontalAlignment="Left" Margin="705,15,0,0" VerticalAlignment="Top" Width="75" Click="btn_Search_Click" Height="23"/>
         <Label x:Name="lbl_Status" Content="Label" HorizontalAlignment="Left" Margin="10,15,0,0" VerticalAlignment="Top"/>
-
+        <Button x:Name="btn_Add" Content="Dodaj" HorizontalAlignment="Left" Margin="111,374,0,0" VerticalAlignment="Top" Width="120" Click="btn_Add_Click"/>
+        <Button x:Name="btn_Delete" Content="Usuń" HorizontalAlignment="Left" Margin="276,374,0,0" VerticalAlignment="Top" Width="75" Click="btn_Delete_Click"/>
+        <ComboBox x:Name="rcb_Search" HorizontalAlignment="Left" Height="23" Margin="555,15,0,0" VerticalAlignment="Top" Width="120" Visibility="Visible" AllowDrop="True" IsDropDownOpen="False" IsEditable="True" StaysOpenOnEdit="True" SelectedIndex="0" DisplayMemberPath="{Binding LastName}"/>
     </Grid>
 </Window>
